@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edie homepage</title>
+    <link rel="icon" type="image/png" href="./img/devchallenges.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./src/script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Edie</h1>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span class="hamburger__box">
+          <span class="hamburger__inner"></span>
+        </span>
+      </button>
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Our Works</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="home">
+        <h1>
+          <span>Unhappy with your website?</span> <br />We create beautiful and
+          fast web services
+        </h1>
+        <img src="./img/heroImage.jpg" alt="homeImage" />
+
+        <h1>Story, emotion and purpose</h1>
+
+        <p>
+          We help transform your ideas into real world applications that will
+          outperform your toughest competition and help you achieve your
+          strategic goals in short period of time.
+        </p>
+
+        <form>
+          <label for="email">Want us to contact you?</label>
+          <div class="input-container">
+            <input type="email" id="email" placeholder="Email" required />
+            <button type="submit">Join</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="services" class="services">
+        <h2>We offer high demand services</h2>
+        <div class="cards">
+          <div class="card">
+            <i class="fa-solid fa-pen"></i>
+            <h3>UI/UX Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button>Get Start</button>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Front End</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button>Get Start</button>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-server"></i>
+            <h3>Back End</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
+              metus ac nulla consequat aliquet id quis turpis.
+            </p>
+            <button>Get Start</button>
+          </div>
+        </div>
+      </section>
+      <section id="works" class="works">
+        <h2>Good design means good business</h2>
+        <div class="work">
+          <div class="design">
+            <img src="./img/smarthome.jpg" alt="" />
+            <p>Full stack application</p>
+            <h3>Smart home dashboard</h3>
+          </div>
+          <div class="design">
+            <img src="./img/onboard.png" alt="" />
+            <p>UX/UI design</p>
+            <h3>Onboard application</h3>
+          </div>
+          <div class="design">
+            <img src="./img/booking.png" alt="" />
+            <p>Mobile application</p>
+            <h3>Booking system</h3>
+          </div>
+          <div class="design">
+            <img src="./img/juice-product.png" alt="" />
+            <p>Onboard application</p>
+            <h3>Juice product homepage</h3>
+          </div>
+        </div>
+        <a href="#" class="see-more"
+          >see more<i class="fa-solid fa-arrow-right-long"></i
+        ></a>
+      </section>
+      <section id="team" class="team">
+        <h2><span>Meet the team</span></h2>
+        <h2>We are chilled and a laidback team</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="staff">
+          <div class="right">
+            <img src="./img/person1.png" alt="" />
+            <img src="./img/person2.png" alt="" />
+          </div>
+          <div class="left"><img src="./img/person3.png" alt="" /></div>
+        </div>
+      </section>
+      <section id="clients" class="clients">
+        <div class="testimonial">
+          <p class="quote">
+            “Fast and outstanding resutls. Edie understands their customer's
+            needs. They have a young and talented team.”
+          </p>
+          <div class="picture">
+            <img src="./img/person4.png" alt="" />
+            <div>
+              <h3>Carlos Tran</h3>
+              <h4>The Decorate Gatsby</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <nav class="links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Works</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <h1>Edie</h1>
+        <div class="social-icons">
+          <a href="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="twitter"><i class="fa-brands fa-square-twitter"></i></a>
+          <a href="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <form class="contact-form">
+          <label for="email">Want us to contact you?</label>
+          <div class="input-container">
+            <input type="email" id="email" placeholder="Email" required />
+            <button type="submit">Join</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>created by yunyun-c - devChallenges.io</footer>
+  </body>
+</html>
